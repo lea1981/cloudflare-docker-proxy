@@ -17,13 +17,13 @@ CUSTOM_DOMAIN = "exmaple.com"
 [env.production]
 name = "cloudflare-docker-proxy"
  routes = [
-   { pattern = "docker.putaopi.top", custom_domain = true },
-   { pattern = "quay.putaopi.top", custom_domain = true },
-   { pattern = "gcr.putaopi.top", custom_domain = true },
-   { pattern = "k8s-gcr.putaopi.top", custom_domain = true },
-   { pattern = "k8s.putaopi.top", custom_domain = true },
-   { pattern = "ghcr.putaopi.top", custom_domain = true },
-   { pattern = "cloudsmith.putaopi.top", custom_domain = true },
+   { pattern = "a.putaopi.top", custom_domain = true },
+  # { pattern = "quay.putaopi.top", custom_domain = true },
+  # { pattern = "gcr.putaopi.top", custom_domain = true },
+  # { pattern = "k8s-gcr.putaopi.top", custom_domain = true },
+   #{ pattern = "k8s.putaopi.top", custom_domain = true },
+   #{ pattern = "ghcr.putaopi.top", custom_domain = true },
+   #{ pattern = "cloudsmith.putaopi.top", custom_domain = true },
  ]
 
 [env.production.vars]
