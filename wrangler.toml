@@ -18,7 +18,7 @@ CUSTOM_DOMAIN = "exmaple.com"
 name = "cloudflare-docker-proxy"
  routes = [
    { pattern = "a.putaopi.top", custom_domain = true },
-   { pattern = "h.putaopi.top", custom_domain = true },
+  # { pattern = "h.putaopi.top", custom_domain = true },
   # { pattern = "quay.putaopi.top", custom_domain = true },
   # { pattern = "gcr.putaopi.top", custom_domain = true },
   # { pattern = "k8s-gcr.putaopi.top", custom_domain = true },
