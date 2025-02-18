@@ -9,7 +9,7 @@ const CUSTOM_DOMAIN = "putaopi.top";
 const routes = {
   // production
   ["a." + CUSTOM_DOMAIN]: dockerHub,
-  ["h." + CUSTOM_DOMAIN]: "https://hub.docker.io",
+  ["h." + CUSTOM_DOMAIN]: "https://registry.hub.docker.com",
   //["quay." + CUSTOM_DOMAIN]: "https://quay.io",
   //["gcr." + CUSTOM_DOMAIN]: "https://gcr.io",
   //["k8s-gcr." + CUSTOM_DOMAIN]: "https://k8s.gcr.io",
